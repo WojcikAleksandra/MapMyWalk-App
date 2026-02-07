@@ -15,7 +15,7 @@ The application allows us to switch between tabs, each of which analyzes a diffe
 
 The menu on the left side allows us to select the person whose data we want to analyze, as well as to choose a date range, i.e. the days from which data should be included in the charts.
 
-## Main panel
+## Main panel (Panel Główny)
 
 ![screen1](./ScreenShoty/Panel_główny.png) 
 
