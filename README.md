@@ -1,7 +1,7 @@
 # MapMy...Walk!
 ![logo](./www/logo.png)
 
-As a project group, we are pleased to present our web application **Map My Walk**.
+As a project group, we are pleased to present our web application **Map My Walk** developed as part of the *Data Visualization Techniques* course at Warsaw University of Technology.
 It is a functional dashboard that processes data originating from the MapMyRun application, as well as the listening history of songs from Spotify.
 
 Over the last two months, we systematically carried out measurements during our daily walks and recorded additional information such as air quality, the purpose of the walk, and whether or not we were listening to music on Spotify during a given walk.
