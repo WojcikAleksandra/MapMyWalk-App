@@ -1,46 +1,45 @@
 # MapMy...Walk!
-![logo](./www/logo.png) 
+![logo](./www/logo.png)
 
-Link do pobrania nagrania: https://mega.nz/file/ItgGHJja#Y4QMA5iMe2ZXlrjI156BlmCyGKoLVfFfrurJzLMrWF0
+As a project group, we are pleased to present our web application **Map My Walk**.
+It is a functional dashboard that processes data originating from the MapMyRun application, as well as the listening history of songs from Spotify.
 
-Link do obejrzenia nagrania: https://youtu.be/5F-_NUIdOLQ
+Over the last two months, we systematically carried out measurements during our daily walks and recorded additional information such as air quality, the purpose of the walk, and whether or not we were listening to music on Spotify during a given walk.
 
-Jako grupa projektowa mamy przyjemność zaprezentować Państwu naszą aplikację webową Map My Walk.
-Jest to dashboard funkcjonalny, który przetwarza dane pochodzące z aplikacji MapMyRun, a także historię odsłuchanych piosenek ze Spotify. 
+The results of our work and analysis can be viewed in the completed application, which is available in this repository.
+Below, we will briefly introduce our application by analyzing its various features.
 
-Przez ostatnie dwa miesiące systematycznie dokonywaliśmy pomiarów podczas naszych codziennych spacerów i zapisywaliśmy dodatkowe informacje takie jak jakość powietrza, cel spaceru, czy to, czy podczas danego spaceru słuchamy muzyki na Spotify, czy nie.
+## Basic features
 
-Efekty naszej pracy i analizy można podziwiać w skończonej aplikacji, która jest dostępna w tym repozytorium.
-Pokrótce postaramy się Państwu przedstawić naszą aplikację analizując jej różne funkcje.
+The application allows us to switch between tabs, each of which analyzes a different aspect of our walks.
 
-## Podstawowe funkcje
+The menu on the left side allows us to select the person whose data we want to analyze, as well as to choose a date range, i.e. the days from which data should be included in the charts.
 
-Aplikacja pozwala nam przełączać się między kartami, każda z nich analizuje inny aspekt naszych spacerów.
-
-Menu z lewej strony pozwala nam na wybór osoby, której dane chcemy analizować, a także wybrać zakres dat, tzn. z jakich dni chcemy brać dane do wykresów.
-
-## Panel główny
+## Main panel
 
 ![screen1](./ScreenShoty/Panel_główny.png) 
 
-W panelu głównym zawarliśmy wszystkie najistotniejsze informacje wprowadzające dla użytkownika. Dodatkowo, zamieściliśmy mapę z biblioteki *leaflet*, która pokazuje jakie 5 miejsc najczęściej odwiedzała dana osoba w wybranym zakresie czasu.
+In the main panel, we included all the most important introductory information for the user. Additionally, we included a map based on the *leaflet* library, which shows the 5 places most frequently visited by a given person within the selected time range.
 
-## Aktywność
+## Activity
 
 ![screen2](./ScreenShoty/Aktywność.png) 
 
-W zakładce *Aktywność* zaprezentowaliśmy wykresy przedstawiające różne zależności między typem wykonywanej aktywności a poświęconym jej czasem lub przebytym dystansem. Daliśmy tam też możliwość wyboru typu przedstawiania danych na wykresie (sumaryczny lub średni na dzień). Ponadto umieściliśmy tam wykres przedstawiający rozkład liczby kroków/dystansu na dzień w danym okresie czasu.
+In the *Activity (Aktywność)* tab, we presented charts showing various relationships between the type of activity performed and the time spent on it or the distance covered. We also provided the option to choose the type of data presentation on the chart (total or daily average). In addition, we included a chart showing the distribution of the number of steps or distance per day within a given time period.
 
-## Powietrze
+## Air
 
 ![screen3](./ScreenShoty/Powietrze.png) 
 
-W zakładce *Powietrze* umieściliśmy wykresy pokazujące związek jakości powietrza z tym, kiedy i ile chodziliśmy. Dane dotyczące aktualnej jakości powietrza braliśmy ze strony air.plumelabs.com. Zamieściliśmy również informacje wyjaśniające, czym jest indeks AQI stosowany do opisu stanu powietrza, jakiej używamy słownej skali jakości powietrza oraz jakim przedziałom czasowym odpowiadają poszczególne pory dnia.
+In the *Air (Powietrze)* tab, we included charts showing the relationship between air quality and when and how much we walked. Data regarding current air quality was obtained from the website air.plumelabs.com. We also included information explaining what the AQI index used to describe air quality is, the verbal air quality scale we use, and which time intervals correspond to individual times of day.
 
-## Muzyka
+## Music
 
 ![screen4](./ScreenShoty/Muzyka.png) 
 
-W zakładce *Muzyka* skupiliśmy się na pokazaniu, jakich utworów słuchaliśmy podczas spacerów oraz czy słuchanie muzyki wpływało na prędkość chodzenia. Dane zebraliśmy z aplikacji Spotify, której wszyscy używamy.
+In the *Music (Muzyka)* tab, we focused on showing which tracks we listened to during walks and whether listening to music affected walking speed. The data was collected from the Spotify application, which we all use.
 
-Mamy nadzieję, że nasza aplikacja przypadła Państwu do gustu. Życzymy smacznej kawusi 🥰
+### Presentation recording
+Download link for the recording: https://mega.nz/file/ItgGHJja#Y4QMA5iMe2ZXlrjI156BlmCyGKoLVfFfrurJzLMrWF0
+
+Link to watch the recording: https://youtu.be/5F-_NUIdOLQ
